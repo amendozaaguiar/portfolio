@@ -19,7 +19,7 @@ class Profile extends React.Component {
 				this.setState({
 					name: result.name,
 					bio: result.bio,
-					avatar_url: result.avatar_url
+					avatar_url: result.avatar_url,
 				});
 			},
 			// Nota: es importante manejar errores aquí y no en 

@@ -18,7 +18,7 @@ class Navbar extends React.Component {
                             <div className="buttons">
                                 <a href="#description" className="button is-ghost is-outlined is-rounded has-text-white-bis">Acerca de mí</a>
                                 <a href="#skills" className="button is-ghost is-outlined is-rounded has-text-white-bis">Habilidades</a>
-                                <a className="button is-link is-outlined is-rounded">Contáctame</a>
+                                <a href="https://www.linkedin.com/in/anderson-mendoza-aguiar-1b47a7203" target="_blank" className="button is-link is-outlined is-rounded">Contáctame</a>
                             </div>
                             </div>
                         </div>
