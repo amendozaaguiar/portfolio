@@ -20,9 +20,9 @@ class Skills extends React.Component {
                                     <p className="mt-4">PHP, Laravel, Livewire, MySql</p>
                                     <h5 className="is-size-5 mt-6 has-text-primary has-text-weight-semibold">Experiencia:</h5>
                                     <ul>
-                                        <li class="mt-2">PHP: 3+ Años</li>
-                                        <li class="mt-2">Laravel, Livewire: 2+ Años</li>
-                                        <li class="mt-2">MySql: 8+ Años</li>
+                                        <li className="mt-2">PHP: 3+ Años</li>
+                                        <li className="mt-2">Laravel, Livewire: 2+ Años</li>
+                                        <li className="mt-2">MySql: 8+ Años</li>
                                     </ul>
                                 </div>
                                 <div className="column mt-6 mb-6 skill-column">
@@ -33,8 +33,8 @@ class Skills extends React.Component {
                                     <p className="mt-4">HTML, CSS, JS, React JS</p>
                                     <h5 className="is-size-5 mt-6 has-text-primary has-text-weight-semibold">Experiencia:</h5>
                                     <ul>
-                                        <li class="mt-2">HTML, CSS, JS: 3+ Años</li>
-                                        <li class="mt-2">React JS: 1+ Años</li>
+                                        <li className="mt-2">HTML, CSS, JS: 3+ Años</li>
+                                        <li className="mt-2">React JS: 1+ Años</li>
                                     </ul>
                                 </div>
                                 <div className="column mt-6 mb-6">
@@ -45,9 +45,9 @@ class Skills extends React.Component {
                                     <p className="mt-4">Linux, Git, SCRUM</p>
                                     <h5 className="is-size-5 mt-6 has-text-primary has-text-weight-semibold">Experiencia:</h5>
                                     <ul>
-                                        <li class="mt-2">Linux: 7+ Años</li>
-                                        <li class="mt-2">Git: 3+ Años</li>
-                                        <li class="mt-2">SCRUM: 2+ Años</li>
+                                        <li className="mt-2">Linux: 7+ Años</li>
+                                        <li className="mt-2">Git: 3+ Años</li>
+                                        <li className="mt-2">SCRUM: 2+ Años</li>
                                     </ul>
                                 </div>
                             </div>

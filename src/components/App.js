@@ -3,6 +3,7 @@ import Navbar from './navbar/Navbar';
 import Profile from './profile/Profile';
 import Skills from './skills/Skills';
 import Description from './description/Description';
+import Works from './works/Works';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Profile></Profile>
         <Description></Description>
         <Skills></Skills>
+        <Works></Works>
     </div>
   );
 }

@@ -7,7 +7,7 @@ class Profile extends React.Component {
 		this.state = {
 		  name: null,
 		  bio: null,
-		  avatar_url: null
+		  //avatar_url: null
 		};
 	}
 
@@ -19,7 +19,7 @@ class Profile extends React.Component {
 				this.setState({
 					name: result.name,
 					bio: result.bio,
-					avatar_url: result.avatar_url,
+					//avatar_url: result.avatar_url,
 				});
 			},
 			// Nota: es importante manejar errores aquí y no en 
@@ -31,22 +31,23 @@ class Profile extends React.Component {
 				});
 			}
 		)
-	  }
-
+	}
 
     render() {
-		const { name, bio, avatar_url } = this.state;
+		const { name, bio } = this.state;
 		return (
 			<div>
 				<section className="hero is-primary is-fullheight is-long">
 					<div className="hero-body">
-						<p>
-						<h4 className="is-size-4 has-text-white-ter">Hola</h4>
-						<br/>
-						<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
-						<br/>
-						<h4 className="is-size-4 has-text-white-ter">{ bio }</h4>
-						</p>
+						
+						<div>
+							<h1 className="is-size-4 has-text-white-ter">Hola</h1>
+							<br/>
+							<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
+							<br/>
+							<h1 className="is-size-4 has-text-white-ter">{ bio }</h1>
+						</div>
+						
 					</div>
 				</section>
 			</div>
