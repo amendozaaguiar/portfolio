@@ -13,21 +13,21 @@ class Works extends React.Component {
                     name: 'laraveles-spanish-for-jetstream',
                     language: 'Laravel',
                     description: 'Repositorio de idioma de Laravel 8 con Jetstream. Archivos de validación, contraseñas y paginación por defecto de Laravel 8 traducidos a español',
-                    url: 'https://api.github.com/repos/amendozaaguiar/laraveles-spanish-for-jetstream',
+                    url: 'https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream',
                 },
                 {
                     id: uuidv4(),
                     name: 'domi',
                     language: 'PHP, LiveWire',
                     description: 'DOMI es una prueba de desarrollo realizada en Laravel 8 + Livewire',
-                    url: 'https://api.github.com/repos/amendozaaguiar/domi',
+                    url: 'https://github.com/amendozaaguiar/domi',
                 },
                 {
                     id: uuidv4(),
                     name: 'elixir',
                     language: 'PHP',
-                    description: 'Proyecto de grado para la universidad del Tolima',
-                    url: 'https://api.github.com/repos/amendozaaguiar/elixir',
+                    description: 'Es una aplicación web para apoyo al proceso de convocatoria docentes catedráticos del Instituto de Educación a Distancia de la Universidad del Tolima.',
+                    url: 'https://github.com/amendozaaguiar/elixir',
                 },
 
             ]
