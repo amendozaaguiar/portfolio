@@ -53,7 +53,7 @@ class Works extends React.Component {
                                 projects.map(project => {
                                     return(
                                         <div className="column is-4" key={ project.id }>
-                                            <a href="{ project.url }" target="_blank">
+                                            <a href={ project.url } target="_blank">
                                                 <div className="card cardprojects">
                                                     <div className="card-image">
                                                         <figure className="image is-4by3">
