@@ -3,5 +3,9 @@
 }
 
 .has-background-image{
-    background-image: url('https://github.com/amendozaaguiar/portfolio/blob/master/public/images/background-profile.jpg?raw=true');
+    background-image: url("https://github.com/amendozaaguiar/portfolio/blob/master/public/images/background-profile.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }

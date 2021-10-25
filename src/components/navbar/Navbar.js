@@ -9,7 +9,7 @@ class Navbar extends React.Component {
                     <div className="container">
                         <div id="navMenu" className="navbar-menu">
                         <div className="navbar-start">
-                            <a href="#profile" className="navbar-item has-text-white">
+                            <a href="#" className="navbar-item has-text-white">
                                 AM
                             </a>
                         </div>
@@ -17,6 +17,7 @@ class Navbar extends React.Component {
                         <div className="navbar-end">
                             <div className="navbar-item">
                             <div className="buttons">
+                                <a href="#" className="button is-ghost is-outlined is-rounded has-text-white-bis">Inicio</a>
                                 <a href="#description" className="button is-ghost is-outlined is-rounded has-text-white-bis">Acerca de mí</a>
                                 <a href="#skills" className="button is-ghost is-outlined is-rounded has-text-white-bis">Habilidades</a>
                                 <a href="#works" className="button is-ghost is-outlined is-rounded has-text-white-bis">Proyectos</a>

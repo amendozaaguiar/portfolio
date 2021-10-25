@@ -47,7 +47,6 @@ class Skills extends React.Component {
                                     <ul>
                                         <li className="mt-2">Linux: 7+ Años</li>
                                         <li className="mt-2">Git: 3+ Años</li>
-                                        <li className="mt-2">SCRUM: 2+ Años</li>
                                     </ul>
                                 </div>
                             </div>
