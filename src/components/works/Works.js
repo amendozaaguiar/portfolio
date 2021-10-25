@@ -14,6 +14,7 @@ class Works extends React.Component {
                     language: 'Laravel',
                     description: 'Repositorio de idioma de Laravel 8 con Jetstream. Archivos de validación, contraseñas y paginación por defecto de Laravel 8 traducidos a español',
                     url: 'https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream',
+                    image: '/images/laraveles-spanish-for-jetstream.jpg',
                 },
                 {
                     id: uuidv4(),
@@ -21,6 +22,7 @@ class Works extends React.Component {
                     language: 'PHP, LiveWire',
                     description: 'DOMI es una prueba de desarrollo realizada en Laravel 8 + Livewire',
                     url: 'https://github.com/amendozaaguiar/domi',
+                    image: '/images/domi.jpg',
                 },
                 {
                     id: uuidv4(),
@@ -28,6 +30,7 @@ class Works extends React.Component {
                     language: 'PHP',
                     description: 'Es una aplicación web para apoyo al proceso de convocatoria docentes catedráticos del Instituto de Educación a Distancia de la Universidad del Tolima.',
                     url: 'https://github.com/amendozaaguiar/elixir',
+                    image: '/images/elixir.jpg',
                 },
 
             ]
@@ -37,13 +40,11 @@ class Works extends React.Component {
         const { projects } = this.state;
         return(
             <div>
-                
-
-                <section className="section has-text-centered">
+                <section id="works" className="section has-text-centered has-background-black-bis has-text-white">
                     <div className="container">
                         <div className="columns is-centered">
                             <div className="column is-three-fifths">
-                                <h1 className="is-size-2 has-text-weight-bold">Mi trabajo reciente</h1>
+                                <h1 className="is-size-2 has-text-weight-bold">Mis proyectos personales</h1>
                                 <h3 className="is-size-5">Aquí hay algunos proyectos de diseño en los que he trabajado recientemente.</h3>
                             </div>
                         </div>
@@ -55,7 +56,7 @@ class Works extends React.Component {
                                             <div className="card cardprojects">
                                                 <div className="card-image">
                                                     <figure className="image is-4by3">
-                                                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt={ project.name }/>
+                                                        <img src={ process.env.PUBLIC_URL + project.image } alt={ project.name }/>
                                                     </figure>
                                                 </div>
                                                 <div className="card-content">

@@ -37,17 +37,15 @@ class Profile extends React.Component {
 		const { name, bio } = this.state;
 		return (
 			<div>
-				<section className="hero is-primary is-fullheight is-long">
+				<section id="profile" className="hero has-text-black is-fullheight is-long">
 					<div className="hero-body">
-						
 						<div>
-							<h1 className="is-size-4 has-text-white-ter">Hola</h1>
+							<h1 className="is-size-4">Hola</h1>
 							<br/>
 							<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
 							<br/>
-							<h1 className="is-size-4 has-text-white-ter">{ bio }</h1>
+							<h1 className="is-size-4">{ bio }</h1>
 						</div>
-						
 					</div>
 				</section>
 			</div>

@@ -7,7 +7,7 @@ class Description extends React.Component {
     render(){
         return(
             <div>
-                <section id="description" className="section has-text-white has-background-info has-text-centered description">
+                <section id="description" className="section has-background-black-bis has-text-white has-text-centered description">
                     <div className="container">
                         <div className="columns is-centered">
                             <div className="column is-three-fifths">
