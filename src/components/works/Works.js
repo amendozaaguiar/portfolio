@@ -10,7 +10,7 @@ class Works extends React.Component {
             projects: [
                 {
                     id: uuidv4(),
-                    name: 'laraveles-spanish-for-jetstream',
+                    name: 'LARAVELES-SPANISH-FOR-JETSTREAM',
                     language: 'Laravel',
                     description: 'Repositorio de idioma de Laravel 8 con Jetstream. Archivos de validación, contraseñas y paginación por defecto de Laravel 8 traducidos a español',
                     url: 'https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream',
@@ -18,7 +18,7 @@ class Works extends React.Component {
                 },
                 {
                     id: uuidv4(),
-                    name: 'domi',
+                    name: 'DOMI',
                     language: 'PHP, LiveWire',
                     description: 'DOMI es una prueba de desarrollo realizada en Laravel 8 + Livewire',
                     url: 'https://github.com/amendozaaguiar/domi',
@@ -26,7 +26,7 @@ class Works extends React.Component {
                 },
                 {
                     id: uuidv4(),
-                    name: 'elixir',
+                    name: 'ELIXIR',
                     language: 'PHP',
                     description: 'Es una aplicación web para apoyo al proceso de convocatoria docentes catedráticos del Instituto de Educación a Distancia de la Universidad del Tolima.',
                     url: 'https://github.com/amendozaaguiar/elixir',
@@ -53,25 +53,26 @@ class Works extends React.Component {
                                 projects.map(project => {
                                     return(
                                         <div className="column is-4" key={ project.id }>
-                                            <div className="card cardprojects">
-                                                <div className="card-image">
-                                                    <figure className="image is-4by3">
-                                                        <img src={ process.env.PUBLIC_URL + project.image } alt={ project.name }/>
-                                                    </figure>
-                                                </div>
-                                                <div className="card-content">
-                                                    <div className="media">
-                                                        <div className="media-content">
-                                                            <p className="title is-4">{ project.name }</p>
-                                                            <p className="subtitle is-6">{ project.language }</p>
+                                            <a href="{ project.url }" target="_blank">
+                                                <div className="card cardprojects">
+                                                    <div className="card-image">
+                                                        <figure className="image is-4by3">
+                                                            <img src={ process.env.PUBLIC_URL + project.image } alt={ project.name }/>
+                                                        </figure>
+                                                    </div>
+                                                    <div className="card-content">
+                                                        <div className="media">
+                                                            <div className="media-content">
+                                                                <p className="title is-4">{ project.name }</p>
+                                                                <p className="subtitle is-6">{ project.language }</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="content">
+                                                            { project.description }
                                                         </div>
                                                     </div>
-                                                    <div className="content">
-                                                        { project.description }
-                                                    </div>
                                                 </div>
-                                            </div>
-                                        
+                                            </a>
                                         </div>
                                     )
                                 })

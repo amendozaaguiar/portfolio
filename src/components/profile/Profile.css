@@ -1,3 +1,7 @@
 .is-long {
     padding-bottom: 10rem;
 }
+
+.has-background-image{
+    background-image: url('https://github.com/amendozaaguiar/portfolio/blob/master/public/images/background-profile.jpg?raw=true');
+}

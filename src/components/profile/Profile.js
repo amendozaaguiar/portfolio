@@ -37,7 +37,7 @@ class Profile extends React.Component {
 		const { name, bio } = this.state;
 		return (
 			<div>
-				<section id="profile" className="hero has-text-black is-fullheight is-long">
+				<section id="profile" className="hero has-text-black is-fullheight is-long has-background-image">
 					<div className="hero-body">
 						<div>
 							<h1 className="is-size-4">Hola</h1>
