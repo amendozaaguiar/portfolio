@@ -1,3 +1,8 @@
-.cardprojects {
+#works{
+    padding-top: 10rem;
+}
+
+.card {
     height: 100%;
+    border: 1px solid green;
 }

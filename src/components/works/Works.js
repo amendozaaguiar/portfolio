@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import Footer from '../footer/Footer';
 import './Works.css'
 
 class Works extends React.Component {
@@ -40,45 +41,27 @@ class Works extends React.Component {
         const { projects } = this.state;
         return(
             <div>
-                <section id="works" className="section has-text-centered has-background-black-bis has-text-white">
-                    <div className="container">
-                        <div className="columns is-centered">
-                            <div className="column is-three-fifths">
-                                <h1 className="is-size-2 has-text-weight-bold">Mis proyectos personales</h1>
-                                <h3 className="is-size-5">Aquí hay algunos proyectos de diseño en los que he trabajado recientemente.</h3>
-                            </div>
-                        </div>
-                        <div className="columns is-multiline">                        
-                            { 
-                                projects.map(project => {
-                                    return(
-                                        <div className="column is-4" key={ project.id }>
-                                            <a href={ project.url } target="_blank">
-                                                <div className="card cardprojects">
-                                                    <div className="card-image">
-                                                        <figure className="image is-4by3">
-                                                            <img src={ process.env.PUBLIC_URL + project.image } alt={ project.name }/>
-                                                        </figure>
-                                                    </div>
-                                                    <div className="card-content">
-                                                        <div className="media">
-                                                            <div className="media-content">
-                                                                <p className="title is-4">{ project.name }</p>
-                                                                <p className="subtitle is-6">{ project.language }</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="content">
-                                                            { project.description }
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
+                <section id="works" className="hero has-text-white is-fullheight has-background-black-bis">
+                    <div className="columns is-multiline p-5"> 
+                        <div className="column is-full has-text-centered mb-5">
+                            <h1 className="is-size-2 has-text-weight-bold">Mis proyectos personales</h1>
+                            <h3 className="is-size-5">Aquí hay algunos proyectos de diseño en los que he trabajado recientemente: <span className="blink">_</span></h3>
+                        </div>                       
+                        { 
+                            projects.map(project => {
+                                return(
+                                    <div className="column is-4 p-5 has-text-centered has-border-green" key={ project.id }>
+                                        <a href={ project.url } target="_blank" rel="noreferrer">
+                                            <p className="title has-text-green is-4">{ project.name }</p>
+                                            <p className="subtitle has-text-green is-6">{ project.language }</p>
+                                            <p className="has-text-white">{ project.description }</p>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
+                    <Footer></Footer>
                 </section>
             </div>
         );

@@ -12,7 +12,7 @@ class Footer extends React.Component{
         const { year } = this.state;
         return(
             <div>
-                <section className="section has-text-centered">
+                <section className="section has-background-black-bis has-text-green has-text-centered">
                     <div className="container">
                         <div className="columns is-centered">© { year }. Todos los derechos reservados.</div>
                     </div>

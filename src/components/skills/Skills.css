@@ -1,14 +1,7 @@
-.skills {
-    margin-top:-10rem;
+#skills{
+    padding-top: 6rem;
 }
 
 .icon-skills {
     font-size: 3rem;
-}
-
-@media screen and (min-width: 769px) {
-    .skill-column{
-        border-right: 1px solid #7a7a7a7e;
-        border-right-width: thin;
-    }    
 }
