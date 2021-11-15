@@ -17,7 +17,7 @@ class Skills extends React.Component {
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Lenguajes y frameworks que empleo:</h5>
                             <p className="mt-4">PHP, Laravel, Livewire, MySql</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Experiencia:</h5>
-                            <ul>
+                            <ul className="mb-5">
                                 <li className="mt-2">PHP: 3+ Años</li>
                                 <li className="mt-2">Laravel, Livewire: 2+ Años</li>
                                 <li className="mt-2">MySql: 8+ Años</li>
@@ -30,7 +30,7 @@ class Skills extends React.Component {
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Lenguajes y librerias que empleo:</h5>
                             <p className="mt-4">HTML, CSS, JS, React JS</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Experiencia:</h5>
-                            <ul>
+                            <ul className="mb-5">
                                 <li className="mt-2">HTML, CSS, JS: 3+ Años</li>
                                 <li className="mt-2">React JS: 1+ Años</li>
                             </ul>
@@ -42,7 +42,7 @@ class Skills extends React.Component {
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Experiencia en:</h5>
                             <p className="mt-4">Linux, Git, SCRUM</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Experiencia:</h5>
-                            <ul>
+                            <ul className="mb-5">
                                 <li className="mt-2">Linux: 7+ Años</li>
                                 <li className="mt-2">Git: 3+ Años</li>
                             </ul>
