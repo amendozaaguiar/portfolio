@@ -42,7 +42,7 @@ class Works extends React.Component {
         return(
             <div>
                 <section id="works" className="hero has-text-white is-fullheight has-background-black-bis">
-                    <div className="columns is-multiline p-5"> 
+                    <div className="columns is-gapless is-multiline p-5"> 
                         <div className="column is-full has-text-centered mb-5">
                             <h1 className="is-size-2 has-text-weight-bold">Mis proyectos personales</h1>
                             <h3 className="is-size-5">Aquí hay algunos proyectos de diseño en los que he trabajado recientemente: <span className="blink">_</span></h3>

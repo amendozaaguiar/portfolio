@@ -9,7 +9,7 @@ class Skills extends React.Component {
         return (
             <div>
                 <section id="skills" className="hero has-text-white is-fullheight has-background-black-bis">                    
-                    <div className="columns is-centered has-text-centered p-5">
+                    <div className="columns is-gapless is-centered has-text-centered p-5">
                         <div className="column p-5 has-border-green">
                             <FontAwesomeIcon icon={faLaptopCode} className="has-text-white icon-skills" />
                             <h4 className="title is-size-3 is-spaced mt-6 has-text-weight-bold has-text-green">Backend</h4>
