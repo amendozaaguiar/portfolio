@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.columns { 
+  max-width: 100%; 
+}
+
 .blink {
   animation: blinker 1s linear infinite;
 }

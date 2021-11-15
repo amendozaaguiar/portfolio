@@ -52,7 +52,7 @@ class Works extends React.Component {
                                 return(
                                     <div className="column is-4 p-5 has-text-centered has-border-green" key={ project.id }>
                                         <a href={ project.url } target="_blank" rel="noreferrer">
-                                            <p className="title has-text-green is-4">{ project.name }</p>
+                                            <p className="title has-text-green is-4 mt-5">{ project.name }</p>
                                             <p className="subtitle has-text-green is-6">{ project.language }</p>
                                             <p className="has-text-white">{ project.description }</p>
                                         </a>

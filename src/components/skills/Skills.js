@@ -11,7 +11,7 @@ class Skills extends React.Component {
                 <section id="skills" className="hero has-text-white is-fullheight has-background-black-bis">                    
                     <div className="columns is-gapless is-centered has-text-centered p-5">
                         <div className="column p-5 has-border-green">
-                            <FontAwesomeIcon icon={faLaptopCode} className="has-text-white icon-skills" />
+                            <FontAwesomeIcon icon={faLaptopCode} className="has-text-white icon-skills mt-5" />
                             <h4 className="title is-size-3 is-spaced mt-6 has-text-weight-bold has-text-green">Backend</h4>
                             <p className="pl-6 pr-6">Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Lenguajes y frameworks que empleo:</h5>
@@ -24,7 +24,7 @@ class Skills extends React.Component {
                             </ul>
                         </div>
                         <div className="column p-5 has-border-green">
-                            <FontAwesomeIcon icon={faLaptop} className="has-text-white icon-skills" />
+                            <FontAwesomeIcon icon={faLaptop} className="has-text-white icon-skills mt-5" />
                             <h4 className="title is-size-3 is-spaced mt-6 has-text-weight-bold has-text-green">Frontend</h4>
                             <p className="pl-6 pr-6">Valoro la estructura de contenido simple, los patrones de diseño limpios y las interacciones reflexivas.</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Lenguajes y librerias que empleo:</h5>
@@ -36,7 +36,7 @@ class Skills extends React.Component {
                             </ul>
                         </div>
                         <div className="column p-5 has-border-green">
-                            <FontAwesomeIcon icon={faCodeBranch} className="has-text-white icon-skills" />
+                            <FontAwesomeIcon icon={faCodeBranch} className="has-text-white icon-skills mt-5" />
                             <h4 className="title is-size-3 is-spaced mt-6 has-text-weight-bold has-text-green">Herramientas</h4>
                             <p className="pl-6 pr-6">Realmente me preocupo por la gente y me encanta trabajar con otros desarroladores de forma colaborativa.</p>
                             <h5 className="is-size-5 mt-6 has-text-green has-text-weight-semibold">Experiencia en:</h5>
