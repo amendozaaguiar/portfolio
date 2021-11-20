@@ -33,7 +33,7 @@ const Skills = () => {
     }])
 
     return (
-        <div>
+        <>
             <section id="skills" className="hero has-text-white is-fullheight has-background-black-bis">                    
                 <div className="columns is-gapless is-centered has-text-centered p-5">
                     { skills.map((skill, index) => {
@@ -55,7 +55,7 @@ const Skills = () => {
                     })}
                 </div>
             </section>
-        </div>
+        </>
     );
     
 }

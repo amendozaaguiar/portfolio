@@ -20,7 +20,7 @@ const Profile = () => {
 	});
 
 	return (
-		<div>
+		<>
 			<section id="profile" className="hero has-text-white is-fullheight has-background-black-bis">
 				<div className="hero-body is-vcentered">
 					<div>
@@ -32,7 +32,7 @@ const Profile = () => {
 					</div>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }
   

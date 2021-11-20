@@ -26,7 +26,7 @@ const Works = () => {
     ])
 
     return(
-        <div>
+        <>
             <section id="works" className="hero has-text-white is-fullheight has-background-black-bis">
                 <div className="columns is-gapless is-multiline p-5"> 
                     <div className="column is-full has-text-centered mb-5">
@@ -47,7 +47,7 @@ const Works = () => {
                 </div>
                 <Footer></Footer>
             </section>
-        </div>
+        </>
     );
 }
 

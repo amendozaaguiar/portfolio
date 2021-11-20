@@ -5,7 +5,7 @@ import './Description.css';
 const Description = () => {
     
     return(
-        <div>
+        <>
             <section id="description" className="hero has-text-white is-fullheight has-background-black-bis">
                 <div className="container">
                     <div className="columns is-centered">
@@ -19,7 +19,7 @@ const Description = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     );
     
 }
