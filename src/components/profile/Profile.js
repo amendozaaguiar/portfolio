@@ -1,56 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Profile.css';
 
-class Profile extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-		  name: null,
-		  bio: null,
-		  //avatar_url: null
-		};
-	}
+const Profile = () => {
+	const [name, setName] = useState(null);
+	const [bio, setBio] = useState(null);
 
-	componentDidMount() {
+	useEffect(() => {
 		fetch("https://api.github.com/users/amendozaaguiar")
-			.then(res => res.json())
-			.then(
+		.then(res => res.json())
+		.then(
 			(result) => {
-				this.setState({
-					name: result.name,
-					bio: result.bio,
-					//avatar_url: result.avatar_url,
-				});
+				setName(result.name)
+				setBio(result.bio)
 			},
-			// Nota: es importante manejar errores aquí y no en 
-			// un bloque catch() para que no interceptemos errores
-			// de errores reales en los componentes.
 			(error) => {
-				this.setState({
-					//NO APLICA
-				});
+				console.log(error)
 			}
 		)
-	}
+	});
 
-    render() {
-		const { name, bio } = this.state;
-		return (
-			<div>
-				<section id="profile" className="hero has-text-white is-fullheight has-background-black-bis">
-					<div className="hero-body is-vcentered">
-						<div>
-							<h1 className="is-size-4">Hola</h1>
-							<br/>
-							<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
-							<br/>
-							<h1 className="is-size-4">{ bio } <span className='blink'>_</span></h1>
-						</div>
+	return (
+		<div>
+			<section id="profile" className="hero has-text-white is-fullheight has-background-black-bis">
+				<div className="hero-body is-vcentered">
+					<div>
+						<h1 className="is-size-4">Hola</h1>
+						<br/>
+						<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
+						<br/>
+						<h1 className="is-size-4">{ bio } <span className='blink'>_</span></h1>
 					</div>
-				</section>
-			</div>
-		);
-    }
+				</div>
+			</section>
+		</div>
+	);
 }
   
 export default Profile

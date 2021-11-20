@@ -5,7 +5,7 @@ import Skills from './skills/Skills';
 import Description from './description/Description';
 import Works from './works/Works';
 
-function App() {
+const App = () => {
   return (
     <div>
         <Navbar></Navbar>
