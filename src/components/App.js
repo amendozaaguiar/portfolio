@@ -15,9 +15,9 @@ const App = () => {
         <Navbar></Navbar>
           <Routes>
             <Route path="/" element={<Profile />} />
-            <Route path="description" element={<Description />} />
-            <Route path="skills" element={<Skills />} />
-            <Route path="works" element={<Works />} />
+            <Route path="/portfolio/description" element={<Description />} />
+            <Route path="/portfolio/skills" element={<Skills />} />
+            <Route path="/portfolio/works" element={<Works />} />
             <Route path="/*" element={<Profile />} />
           </Routes>
         </BrowserRouter>
