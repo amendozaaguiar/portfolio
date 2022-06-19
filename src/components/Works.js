@@ -24,7 +24,7 @@ const Works = () => {
                 <div className="hero-body is-vcentered">
                     <div className="columns is-gapless is-multiline p-5"> 
                         <div className="column is-full has-text-centered mb-5">
-                            <h1 className="is-size-2 has-text-weight-bold">My personal projects</h1>
+                            <h1 className="is-size-2 has-text-weight-bold has-text-shadow-2">My personal projects</h1>
                             <h3 className="is-size-5">Here are some projects I have recently worked on: <span className="blink">_</span></h3>
                         </div>                       
                         {projects.map((project, index) => {

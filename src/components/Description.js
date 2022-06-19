@@ -9,7 +9,7 @@ const Description = () => {
                     <div className="container">
                         <div className="columns is-centered">
                             <div className="column is-three-fifths has-text-centered has-text-center-vertical">
-                                <h3 className="is-size-2 has-text-weight-bold">About me!</h3>
+                                <h3 className="is-size-2 has-text-weight-bold has-text-shadow-2">About me!</h3>
                                 <p className="is-size-4 mt-5">{description} <span className="blink">_</span>
                                 </p>
                             </div>

@@ -26,7 +26,7 @@ const Profile = () => {
 						<div className="column">
 							<h1 className="is-size-4 welcome-message">Hello, my name is</h1>
 							<br/>
-							<h1 className="is-size-1 has-text-weight-bold">{ name }</h1>
+							<h1 className="is-size-1 has-text-weight-bold has-text-shadow-1">{ name }</h1>
 							<br/>
 							<h1 className="is-size-4">{ bio } <span className='blink'>_</span></h1>
 						</div>

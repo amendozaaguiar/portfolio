@@ -74,6 +74,20 @@ html {
   margin-bottom: 20px;
 }
 
+.is-size-1{
+  font-size: 5em !important;
+}
+
+.has-text-shadow-1{
+  text-shadow: -10px -5px 0px rgba(0,0,0,0.5);
+  
+}
+
+.has-text-shadow-2{
+  text-shadow: -2px -5px 0px rgba(0,0,0,0.3);
+  
+}
+
 /*Description*/
 
 
