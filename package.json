@@ -1,5 +1,5 @@
 {
-  "homepage": "https://amendozaaguiar.github.io/portfolio",
+  "homepage": "https://amendozaaguiar.dev",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo amendozaaguiar.dev > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
