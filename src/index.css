@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,9 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.columns { 
-  max-width: 100%; 
-}
 
 .blink {
   animation: blinker 1s linear infinite;
@@ -27,12 +23,75 @@ html {
   }
 }
 
-.has-text-green{
-  color: Green !important;
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
-.has-border-green{
-  border: 1px solid green;
-  border-width: thin;
-}    
+.navbar {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.button.is-primary{
+  background-color: transparent;
+}
+
+.button.is-primary:hover {
+  background-color: rgba(95, 255, 241, 0.5);
+}
+
+.button.is-primary.contacme{
+  background-color: #52cffe;
+}
+
+.button.is-primary.contacme:hover{
+  background-color: rgba(82, 207, 254, 0.5);
+}
+
+
+
+.button.is-primary.is-focused:not(:active), .button.is-primary:focus:not(:active) {
+
+  box-shadow: 0 0 0 0.2rem rgba(95, 255, 241, 0.5);
+}
+
+/*Profile*/
+.welcome-message{
+  background-color: #d16ba5;
+  color: white;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*Description*/
+
+
+/*Skills*/
+.icon-skills {
+  font-size: 3rem;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.card-h-100 {
+  /*background gray white with transparence*/
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  margin: 1em;
+  box-shadow: none;
+}
+
+
+
 

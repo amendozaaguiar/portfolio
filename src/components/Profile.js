@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './Profile.css';
 
 const Profile = () => {
 	const [name, setName] = useState(null);
@@ -17,18 +16,20 @@ const Profile = () => {
 				console.log(error)
 			}
 		)
-	});
+	},[]);
 
 	return (
 		<>
-			<section id="profile" className="hero has-text-white is-fullheight has-background-black-bis">
+			<section id="profile" className="hero has-text-white is-fullheight">
 				<div className="hero-body is-vcentered">
-					<div>
-						<h1 className="is-size-4">Hola</h1>
-						<br/>
-						<h1 className="is-size-1 has-text-weight-bold">Soy { name }</h1>
-						<br/>
-						<h1 className="is-size-4">{ bio } <span className='blink'>_</span></h1>
+					<div className="columns">
+						<div className="column">
+							<h1 className="is-size-4 welcome-message">Hello, my name is</h1>
+							<br/>
+							<h1 className="is-size-1 has-text-weight-bold">{ name }</h1>
+							<br/>
+							<h1 className="is-size-4">{ bio } <span className='blink'>_</span></h1>
+						</div>
 					</div>
 				</div>
 			</section>
